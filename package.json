@@ -1,0 +1,30 @@
+{
+  "name": "mcp-image-generation",
+  "version": "0.1.0",
+  "description": "MCP server for AI image generation with multiple backends (DALL-E, Stability AI, local Automatic1111)",
+  "main": "src/index.js",
+  "bin": {
+    "mcp-image-generation": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "image-generation",
+    "ai",
+    "dall-e",
+    "stability-ai",
+    "automatic1111"
+  ],
+  "author": "MCP Community",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
